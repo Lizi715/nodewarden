@@ -4,8 +4,6 @@ compatibility_date = "2024-01-01"
 
 [vars]
 HIDE_WEB_VAULT = "1"
-JWT_SECRET = "Ti23f08hJaNujARn4CICOQuT1HVrnuo5"
-
 
 [build]
 command = "npm run build"
