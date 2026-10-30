@@ -2,6 +2,10 @@ name = "nodewarden"
 main = "src/index.ts"
 compatibility_date = "2024-01-01"
 
+[vars] 
+HIDE_WEB_VAULT = "1" 
+JWT_SECRET = "a84713cd1ce9604a232ed41041959bd4b4d8c310585da928e41f849181c64897"
+
 [build]
 command = "npm run build"
 
